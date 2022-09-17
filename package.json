@@ -1,0 +1,11 @@
+{
+  "name": "express-typescript",
+  "version": "1.0.0",
+  "description": "a base for an express server typed with typescript and tested with jest",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "mr-refactor",
+  "license": "ISC"
+}
