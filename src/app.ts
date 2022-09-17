@@ -5,6 +5,8 @@ import { logger } from './utils/logger';
 
 export const app: Express = express();
 
+app.set("port", process.env.PORT || 3000);
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
 
