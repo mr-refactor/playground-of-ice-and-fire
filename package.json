@@ -4,8 +4,8 @@
   "description": "a base for an express server typed with typescript and tested with jest",
   "main": "src/app.js",
   "scripts": {
-    "start": "node ./dist/app.js",
-    "dev": "ts-node-dev ./src/app.ts",
+    "start": "node ./dist/server.js",
+    "dev": "ts-node-dev ./src/server.ts",
     "test": "jest",
     "build": "tsc"
   },
